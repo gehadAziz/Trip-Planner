@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.egh.tripplanner.fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- use same height & width & layout_above in the recycler view -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/addTripBtn"
+        android:text="Home Fragment" />
+
+    <Button
+        android:id="@+id/addTripBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/addTrip" />
+
+</RelativeLayout>
